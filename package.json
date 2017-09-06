@@ -1,0 +1,23 @@
+{
+  "name": "crud-express-mongodb",
+  "version": "0.1.0",
+  "description": "CRUD aplication",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jhovany Morales Bruno <jhovanymb.info@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.10",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  }
+}
